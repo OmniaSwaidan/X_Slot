@@ -1,0 +1,40 @@
+{
+    "name": "omniax/x_slot",
+    "description": "A Laravel package for managing E-commerce slots",
+    "type": "laravel-package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Omniax\\X_slot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omniax\\X_slot\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "omnia-swaidan",
+            "email": "omniaswaidan12@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Omniax\\X_slot\\XslotServiceProvider"
+            ],
+            "migrations": [
+                "database/migrations"
+            ]
+        }
+    },
+    "scripts": {
+        "post-package-install": [
+            "php artisan vendor:publish --all --ansi --force"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
