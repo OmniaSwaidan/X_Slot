@@ -8,11 +8,6 @@
             "Omniax\\X_slot\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Omniax\\X_slot\\Tests\\": "tests/"
-        }
-    },
     "authors": [
         {
             "name": "omnia-swaidan",
