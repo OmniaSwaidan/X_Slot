@@ -1,9 +1,9 @@
 <?php
 
-namespace Omniax\X_slot\Requests\Xslot;
+namespace Omniax\basement_chatBot\Requests\Xslot;
 
 use Illuminate\Foundation\Http\FormRequest;
-use Omniax\X_slot\Requests\ApiRequest;
+use Omniax\basement_chatBot\Requests\ApiRequest;
 
 class UpdateRequest extends ApiRequest
 {

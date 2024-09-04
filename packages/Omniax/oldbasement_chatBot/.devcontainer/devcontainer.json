@@ -1,0 +1,7 @@
+{
+  "name": "Basement Chat",
+  "service": "devcontainer",
+  "shutdownAction": "stopCompose",
+  "workspaceFolder": "/workspaces/basement-chat",
+  "dockerComposeFile": "docker-compose.yml"
+}

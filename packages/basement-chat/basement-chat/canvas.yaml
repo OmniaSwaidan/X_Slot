@@ -1,0 +1,27 @@
+preset: package
+
+namespace: BasementChat\Basement
+user-auth-provider: App\Models\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ""
+
+console:
+  namespace: BasementChat\Basement\Console
+
+model:
+  namespace: BasementChat\Basement\Models
+
+provider:
+  namespace: BasementChat\Basement\Providers
+
+testing:
+  namespace: BasementChat\Basement\Tests

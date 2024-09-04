@@ -1,0 +1,27 @@
+preset: package
+
+namespace: Omniax\basement_chatBot
+user-auth-provider: App\Models\User
+
+paths:
+  src: src
+  resource: resources
+
+factory:
+  path: database/factories
+
+migration:
+  path: database/migrations
+  prefix: ""
+
+console:
+  namespace: Omniax\basement_chatBot\Console
+
+model:
+  namespace: Omniax\basement_chatBot\Models
+
+provider:
+  namespace: Omniax\basement_chatBot\Providers
+
+testing:
+  namespace: Omniax\basement_chatBot\Tests

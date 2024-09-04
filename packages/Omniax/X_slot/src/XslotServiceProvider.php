@@ -39,8 +39,8 @@ class XslotServiceProvider extends ServiceProvider
 
         // Publish views
         $this->publishes([
-            __DIR__ . '/views' => resource_path('views/vendor/X_slot'),
-        ], 'views');
+            __DIR__.'/views' => base_path('resources/views/X_slot'),
+        ]);
 
         // Publish migrations
         $this->publishes([

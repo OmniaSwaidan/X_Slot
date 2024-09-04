@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AuthController;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,4 +19,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/','index');
+Route::group(["middleware" => "auth:web"], function () {
+    Route::view('/','X_slot.index');
+});
+
+Route::get('login', function () {
+    return view('auth.login');
+});
+Route::post('login', [AuthController::class, 'login']);

@@ -108,3 +108,17 @@ body {
 
 
 </style> --}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+
+    <link rel="stylesheet" href="{{ asset('vendor/basement/basement.bundle.min.css') }}">
+</head>
+<body>
+   
+
+   <x-basement::chat-box />
+ <script src="{{ asset('vendor/basement/basement.bundle.min.js') }}"></script>
+</body>
+</html>

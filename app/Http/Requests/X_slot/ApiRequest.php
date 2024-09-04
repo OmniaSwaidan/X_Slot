@@ -1,6 +1,6 @@
 <?php
 
-namespace Omniax\X_slot\Requests;
+namespace Omniax\basement_chatBot\Requests;
 
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;

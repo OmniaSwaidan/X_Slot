@@ -191,11 +191,11 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        // Omniax\X_slot\XslotServiceProvider::class,
+        // Omniax\basement_chatBot\XslotServiceProvider::class,
 
     ],
 
